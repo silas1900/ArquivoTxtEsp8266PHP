@@ -32,7 +32,7 @@
 	
 	$conteudo ="Temperatura " .$temperatura."°C".".\r\n"."Umidade ".$umidade."\r\n".$data." ".$hora."\r\n"."........................................................................."."\r\n";
 	
-	$arquivo = fopen("th.txt","a"); // cria uma arquivo do tipi txt
+	$arquivo = fopen("th.txt","a"); // cria uma arquivo do tipo txt
 	
 	fwrite($arquivo,$conteudo);
 	
